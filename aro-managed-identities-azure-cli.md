@@ -1,4 +1,4 @@
-# Create an Azure Red Hat OpenShift cluster with managed identities using Azure CLI
+# Creating ARO with Managed Identities (Workload Identity Federation) via Azure CLI
 
 This guide creates an Azure Red Hat OpenShift (ARO) cluster that uses:
 
