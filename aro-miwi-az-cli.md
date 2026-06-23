@@ -46,8 +46,6 @@ az account set --subscription "<subscription-name-or-id>"
 az account show --query '{name:name,id:id,tenantId:tenantId}' --output table
 ```
 
-Do not commit subscription IDs, tenant IDs, pull secrets, or generated principal IDs to the repository.
-
 ## 1. Set variables
 
 Adjust these values for your environment:
@@ -575,8 +573,6 @@ az aro show \
   }' \
   --output yaml
 ```
-
-Avoid pasting credentials into tickets, chat systems, terminal recordings, or committed files.
 
 ## Troubleshooting
 
