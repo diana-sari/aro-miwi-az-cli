@@ -6,8 +6,6 @@ This guide creates an Azure Red Hat OpenShift (ARO) cluster that uses:
 - eight platform workload identities for ARO and OpenShift operators;
 - Azure role assignments scoped to the required identities, virtual network, and subnets.
 
-The examples use generic names and contain no subscription IDs, tenant IDs, principal IDs, pull-secret contents, or organization-specific metadata.
-
 > **Important**
 >
 > - Use Azure CLI **2.84.0 or later**.
